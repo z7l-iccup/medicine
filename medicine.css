@@ -1,0 +1,103 @@
+body, h1, h2, h3, ul, p {
+	margin: 0;
+	padding: 0;
+}
+#banner {
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-size: 250vh;
+	padding-bottom: 80px;
+}
+#box1 {
+	width: 40%;
+	padding-top: 50px;
+}
+#header {
+	background-color: #35424a;
+	border-bottom: 4px solid green;
+}
+.container {
+	width: 85%;
+	margin: auto;
+}
+#header h1 {
+	color: #fff;
+	font-family: sans-serif;
+	padding: 15px, 0;
+	margin: 15px;
+	display: inline-block;
+}
+#logo {
+	color: green;
+}
+.navbar {
+	list-style-type: none;
+	float: right;
+}
+ul.navbar li {
+	display: inline;
+}
+.navbar li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 25px 15px;s
+	margin-top: 15px;
+	display: inline-block;
+}
+.navbar li a:hover {
+	color: yellow;
+}
+#account {
+	background-color: #35424a;
+	color: #fff
+	font-family: sans-serif;
+	display: inline-table;
+	width: 100%;
+	padding: 35px; 0
+}
+#account .left {
+	float: left;
+	color: #fff
+}
+#account .right{
+	float: right;
+}
+#account input {
+	padding: 5px;
+	font-size: 15px;
+}
+.button {
+	background-color: green;
+	color: #fff;
+	padding: 5px 15px;
+	margin-left: 2px;
+}
+#footer {
+	background-color: #3f3f3f;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	color: #fff
+}
+.first {
+	padding: 20px;
+	padding-left: 40px;
+}
+#footer ul {
+	list-style: none;
+	padding-right: 60px;
+}
+#footer ul a {
+	text-decoration: none;
+	color: #fff
+}
+.clr {
+	clear: both;
+}
+
+.active {
+	color: green !important;
+}
